@@ -1,0 +1,20 @@
+{
+    "name": "polarnix/starter",
+    "type": "project",
+    "authors": [
+        {
+            "name": "polarnix"
+        }
+    ],
+    "config": {
+        "process-timeout": 0
+    },
+    "scripts": {
+        "tw-dev": [
+            "./tailwindcss -i style.css -o assets/styles/style.dist.css --watch"
+        ],
+        "esbuild-dev": [
+            "./esbuild assets/scripts/scripts.js --bundle --outfile=assets/scripts/scripts.dist.js --watch"
+        ]
+    }
+}

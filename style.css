@@ -1,0 +1,10 @@
+/*
+Theme Name: Starter
+Description: Modern WordPress Starter Theme
+Author: Polarnix
+Version: 0.0.1
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
